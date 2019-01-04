@@ -109,7 +109,8 @@ body {
 
 .role {
   margin-bottom: 10px;
-  font-weight: 600; }
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.75); }
 
 .bullet-points {
   padding-left: 20px; }
