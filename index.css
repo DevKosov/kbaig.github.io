@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+* {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.9);
+  font: inherit; }
+
+body {
+  background: #d0dce2;
+  padding: 50px 30px; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    top: -10px;
+    left: -30px; }
+  to {
+    opacity: 1;
+    top: 0;
+    left: 0; } }
+
+.resume {
+  margin: auto;
+  padding: 50px 60px;
+  position: relative;
+  max-width: 850px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-family: 'Open Sans', serif; }
+
+.resume-header {
+  margin-bottom: 15px; }
+
+.name {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 48px;
+  letter-spacing: 5px;
+  font-family: 'Roboto'; }
+
+.social {
+  margin: auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-between; }
+
+.social-item {
+  display: flex;
+  align-items: center; }
+  .social-item .fa, .social-item .fab {
+    margin-right: 5px; }
+  .social-item .fa-envelope {
+    color: #dc9428; }
+  .social-item .fa-phone {
+    color: #00a824; }
+  .social-item .fa-linkedin-in {
+    color: #0077b5; }
+  .social-item .fa-github {
+    color: #333; }
+  .social-item a {
+    text-decoration: none;
+    color: #0f7fff; }
+    .social-item a:hover {
+      text-decoration: underline; }
+
+.resume-section {
+  margin-bottom: 25px; }
+  .resume-section:last-of-type {
+    margin-bottom: none; }
+
+.section-heading {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 22px; }
+
+.resume-item {
+  margin-bottom: 20px; }
+  .resume-item:last-of-type {
+    margin-bottom: 0; }
+
+.resume-item--headline {
+  display: flex;
+  align-items: flex-end; }
+
+.company {
+  margin-right: 15px;
+  font-weight: 600; }
+  .company a {
+    text-decoration: none; }
+    .company a .fa, .company a fab {
+      margin-left: 10px;
+      color: #0f7fff; }
+
+.location {
+  color: rgba(0, 0, 0, 0.7); }
+
+.timeframe {
+  flex-grow: 1;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.7); }
+
+.company-description {
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.8); }
+
+.role {
+  margin-bottom: 10px;
+  font-weight: 600; }
+
+.bullet-points {
+  padding-left: 20px; }
+
+li {
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif; }
+  li:last-of-type {
+    margin-bottom: 0; }
+
+.education .company-description {
+  margin-bottom: 10px; }
+
+.no-bullets {
+  padding-left: 0; }
+  .no-bullets li {
+    list-style-type: none; }
+
+.category {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8); }
